@@ -19,7 +19,6 @@ let http = axios.create({
   }]
 });
 
-// var httpURL="http://post.futuredigitalgames.org/api";
 
 var httpURL="http://127.0.0.1:9091";
 
