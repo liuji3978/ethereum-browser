@@ -1,0 +1,1064 @@
+.mod-detail {
+    padding: 15px 20px;
+    overflow: hidden
+}
+
+.mod-detail .left {
+    float: left;
+    width: 40%
+}
+
+.mod-detail .right {
+    margin-left: 40%
+}
+
+.mod-detail .right p.gray {
+    text-align: right;
+    font-size: 12px;
+    color: #999
+}
+
+.mod-detail .info {
+    margin-bottom: 25px
+}
+
+.mod-detail .info p {
+    line-height: 24px
+}
+
+.mod-detail .info .title {
+    color: #757575
+}
+
+.mod-detail .info .price {
+    font-size: 24px
+}
+
+.mod-detail .info .equal, .mod-detail .info .rate, .mod-detail .info .change {
+    font-size: 16px
+}
+
+.mod-detail .info .change {
+    color: #28c99d
+}
+
+.mod-detail .info .warning {
+    margin-left: 10px;
+    color: #fc0000
+}
+
+.mod-detail .info .warning img {
+    margin: 0 5px;
+    vertical-align: middle
+}
+
+.mod-detail table {
+    width: 100%;
+    table-layout: fixed
+}
+
+.mod-detail table td {
+    line-height: 24px
+}
+
+.mod-detail table td.th {
+    padding-top: 25px;
+    color: #8e9ab5
+}
+
+.mod-detail .chart {
+    height: 250px
+}
+
+.mod-info .bd {
+    min-width: 120px
+}
+
+.mod-token {
+    overflow: hidden
+}
+
+.mod-token .left-box {
+    float: left;
+    width: 60%
+}
+
+.mod-token .left-box ul {
+    height: 237px;
+    overflow: hidden
+}
+
+.mod-token .left-box li {
+    float: left;
+    width: 33.33%
+}
+
+.mod-token .left-box li.none {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center
+}
+
+.mod-token .right-box {
+    float: left;
+    width: 40%
+}
+
+.mod-token .right-box ul {
+    height: 237px;
+    overflow: hidden
+}
+
+.mod-token .right-box li {
+    float: left;
+    width: 50%
+}
+
+.mod-token .right-box li.none {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center
+}
+
+.mod-token .right-box .item {
+    position: relative;
+    right: -1px
+}
+
+.mod-token .item {
+    border-right: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 15px 0
+}
+
+.mod-token .icon {
+    float: left;
+    padding: 0 12px;
+    width: 48px;
+    text-align: center
+}
+
+.mod-token .icon img {
+    width: 100%;
+    height: 100%
+}
+
+.mod-token .info {
+    height: 48px;
+    margin-left: 72px;
+    line-height: 24px;
+    overflow: hidden
+}
+
+.mod-token .info .name {
+    font-size: 16px
+}
+
+.mod-token .info .change {
+    margin-left: 7px
+}
+
+.mod-token .ft {
+    margin-right: 1px;
+    height: 50px;
+    background: #f4f5f8;
+    line-height: 50px;
+    text-align: center
+}
+
+.mod-token .ft a {
+    display: block
+}
+
+.mod-trade .hd {
+    height: 52px;
+    padding: 0 20px;
+    background: #f4f5f8;
+    line-height: 52px;
+    overflow: hidden
+}
+
+.mod-trade .hd h3 {
+    font-size: 18px
+}
+
+.mod-trade .bd {
+    position: relative;
+    padding: 0 10px 0 20px;
+    height: 364px;
+    overflow: auto
+}
+
+.mod-trade .bd::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent
+}
+
+.mod-trade .bd::-webkit-scrollbar-thumb {
+    width: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.07);
+    background-color: #999
+}
+
+.mod-trade .bd::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.15);
+    background-color: #fff
+}
+
+.mod-trade .bd table {
+    margin-top: -53px;
+    *zoom: 1
+}
+
+.mod-trade .ft {
+    margin-right: 1px;
+    height: 50px;
+    background: #f5f5f5;
+    line-height: 50px;
+    text-align: center
+}
+
+.mod-trade table {
+    position: relative;
+    width: 100%
+}
+
+.mod-trade table tr {
+    position: relative;
+    border-bottom: 1px solid #f1f1f1
+}
+
+.mod-trade table tr .loading {
+    padding: 150px 0;
+    line-height: 30px;
+    text-align: center
+}
+
+.mod-trade table th {
+    position: relative;
+    padding: 16px 10px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: normal;
+    cursor: pointer
+}
+
+.mod-trade table th.sorted {
+    background: #f4f5f8
+}
+
+.mod-trade table th.no-sort, .mod-trade table th.no-sort:hover {
+    cursor: default
+}
+
+.mod-trade table th.ascending:after, .mod-trade table th.sorted:hover:after {
+    position: absolute;
+    right: 12px;
+    top: 23px;
+    display: block;
+    content: '';
+    border-width: 0 4px 4px;
+    border-style: solid;
+    border-color: #666 transparent
+}
+
+.mod-trade table th.no-sort:hover:after {
+    display: none
+}
+
+.mod-trade table th.descending:after, .mod-trade table th.descending:hover:after {
+    position: absolute;
+    right: 12px;
+    top: 23px;
+    display: block;
+    content: '';
+    border-width: 4px 4px 0;
+    border-style: solid;
+    border-color: #666 transparent
+}
+
+.mod-trade table td {
+    position: relative;
+    padding: 16px 10px;
+    line-height: 20px
+}
+
+.mod-trade table td span.gray {
+    color: #999
+}
+
+.mod-trade table .level3, .mod-trade table .level13 {
+    color: #DE8100
+}
+
+.mod-trade table .level4, .mod-trade table .level14 {
+    color: #E03636
+}
+
+.mod-trade table a {
+    display: inline-block;
+    min-width: 48px;
+    vertical-align: middle;
+    word-wrap: break-word;
+    word-break: break-all;
+    color: #2d8cf0
+}
+
+.mod-trade table a.address {
+    font-size: 12px
+}
+
+.mod-trade table img {
+    margin-right: 5px;
+    vertacal-align: middle
+}
+
+.mod-trade table .time {
+    display: block;
+    min-width: 75px
+}
+
+.mod-trade ul {
+    overflow: hidden
+}
+
+.mod-trade .item {
+    position: relative;
+    bottom: -1px;
+    padding: 15px 10px;
+    border-bottom: 1px solid #eeeff1
+}
+
+.mod-trade .item .field {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 12px;
+    margin: 5px 0
+}
+
+.mod-trade .item .field .key {
+    color: #8e9ab5;
+    min-width: 93px;
+    width: 93px
+}
+
+.mod-trade .item .field .value {
+    color: #213654;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.mod-trade .item .field .value a {
+    color: #2d8cf0
+}
+
+.mod-trade .loading {
+    padding: 150px 0;
+    line-height: 30px;
+    text-align: center
+}
+
+.mod-trade .star {
+    background: #999;
+    padding: 2px 4px;
+    color: #fff;
+    vertical-align: middle;
+    font-size: 12px;
+    border-radius: 2px
+}
+
+.mod-list .hd {
+    height: 52px;
+    padding: 0 20px;
+    line-height: 52px;
+    overflow: hidden
+}
+
+.mod-list .hd h3 {
+    font-size: 18px
+}
+
+.mod-list .hd a {
+    float: right
+}
+
+.mod-list .bd {
+    padding-left: 20px
+}
+
+.mod-list .bd ul {
+    overflow: hidden
+}
+
+.mod-list .bd li {
+    position: relative;
+    bottom: -1px;
+    height: 66px;
+    padding: 18px 20px 18px 0;
+    border-bottom: 1px solid #f1f1f1
+}
+
+.mod-list .bd li.none {
+    padding: 50px 0;
+    text-align: center
+}
+
+.mod-list table {
+    width: 100%;
+    table-layout: fixed
+}
+
+.mod-list table a {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    color: #2d8cf0;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.mod-list table a.address {
+    max-width: 45%
+}
+
+.mod-list table caption {
+    margin-top: -6px;
+    line-height: 30px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold
+}
+
+.mod-list table td {
+    line-height: 20px
+}
+
+.mod-list table span {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.mod-list table span.time, .mod-list table span.fee {
+    white-space: nowrap
+}
+
+.mod-list table span.fee {
+    padding: 2px 2px;
+    background: #28c99d;
+    color: #fff;
+    border-radius: 2px;
+    -webkit-border-radius: 2px
+}
+
+.mod-list table span.time {
+    color: #8e9ab5
+}
+
+.mod-link a {
+    margin: 0 4px;
+    white-space: nowrap
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .mod-detail .left {
+        float: left;
+        width: 320px
+    }
+
+    .mod-detail .right {
+        margin-left: 320px
+    }
+
+    .mod-detail table td {
+        width: 50%
+    }
+
+    .mod-token {
+        border: none;
+        box-shadow: none
+    }
+
+    .mod-token .left-box {
+        float: none;
+        width: auto
+    }
+
+    .mod-token .left-box ul {
+        height: 316px
+    }
+
+    .mod-token .left-box li {
+        width: 33.33%
+    }
+
+    .mod-token .right-box {
+        float: none;
+        width: auto
+    }
+
+    .mod-token .right-box ul {
+        height: auto
+    }
+
+    .mod-token .right-box li {
+        width: 33.33%
+    }
+
+    .mod-trade .hd {
+        height: 44px;
+        line-height: 44px
+    }
+
+    .mod-trade table {
+        table-layout: auto;
+        margin-top: 0
+    }
+
+    .mod-trade table th, .mod-trade table td {
+        width: auto;
+        padding: 12px 5px
+    }
+
+    .mod-trade table th:nth-child(2), .mod-trade table td:nth-child(2) {
+        width: auto;
+        min-width: 80px
+    }
+
+    .mod-trade table th:nth-child(3), .mod-trade table td:nth-child(3) {
+        display: none
+    }
+
+    .mod-trade table th:nth-child(4), .mod-trade table td:nth-child(4) {
+        display: none
+    }
+
+    .mod-trade .star {
+        display: none
+    }
+
+    .mod-list .hd {
+        height: 44px;
+        line-height: 44px
+    }
+
+    .mod-list .bd li {
+        height: auto
+    }
+}
+
+.media-medium .mod-detail .left {
+    float: left;
+    width: 320px
+}
+
+.media-medium .mod-detail .right {
+    margin-left: 320px
+}
+
+.media-medium .mod-detail table td {
+    width: 50%
+}
+
+.media-medium .mod-token {
+    border: none;
+    box-shadow: none
+}
+
+.media-medium .mod-token .left-box {
+    float: none;
+    width: auto
+}
+
+.media-medium .mod-token .left-box ul {
+    height: 316px
+}
+
+.media-medium .mod-token .left-box li {
+    width: 33.33%
+}
+
+.media-medium .mod-token .right-box {
+    float: none;
+    width: auto
+}
+
+.media-medium .mod-token .right-box ul {
+    height: auto
+}
+
+.media-medium .mod-token .right-box li {
+    width: 33.33%
+}
+
+.media-medium .mod-trade .hd {
+    height: 44px;
+    line-height: 44px
+}
+
+.media-medium .mod-trade table {
+    table-layout: auto;
+    margin-top: 0
+}
+
+.media-medium .mod-trade table th, .media-medium .mod-trade table td {
+    width: auto;
+    padding: 12px 5px
+}
+
+.media-medium .mod-trade table th:nth-child(2), .media-medium .mod-trade table td:nth-child(2) {
+    width: auto;
+    min-width: 80px
+}
+
+.media-medium .mod-trade table th:nth-child(3), .media-medium .mod-trade table td:nth-child(3) {
+    display: none
+}
+
+.media-medium .mod-trade table th:nth-child(4), .media-medium .mod-trade table td:nth-child(4) {
+    display: none
+}
+
+.media-medium .mod-trade .star {
+    display: none
+}
+
+.media-medium .mod-list .hd {
+    height: 44px;
+    line-height: 44px
+}
+
+.media-medium .mod-list .bd li {
+    height: auto
+}
+
+@media screen and (max-width: 767px) {
+    .mod-detail {
+        padding: 10px 0
+    }
+
+    .mod-detail .info {
+        margin-bottom: 10px
+    }
+
+    .mod-detail .info .price {
+        font-size: 20px
+    }
+
+    .mod-detail .info .warning {
+        display: none
+    }
+
+    .mod-detail .left {
+        float: none;
+        width: auto;
+        padding: 0 10px 20px
+    }
+
+    .mod-detail .right {
+        margin-left: 0
+    }
+
+    .mod-detail table td {
+        width: auto
+    }
+
+    .mod-detail table td.th {
+        padding-top: 5px
+    }
+
+    .mod-token {
+        margin: 0 !important;
+        background: none !important;
+        border: none !important
+    }
+
+    .mod-token .ft {
+        height: 40px;
+        line-height: 40px
+    }
+
+    .mod-token a {
+        font-size: 14px
+    }
+
+    .mod-token .left-box, .mod-token .right-box {
+        background: #fff;
+        margin: 0 8px 15px;
+        border: 1px solid #d2d7e1
+    }
+
+    .mod-token .left-box .item, .mod-token .right-box .item {
+        position: relative;
+        right: -1px
+    }
+
+    .mod-token .left-box {
+        float: none;
+        width: auto
+    }
+
+    .mod-token .left-box ul {
+        height: 355px
+    }
+
+    .mod-token .left-box li {
+        width: 50%
+    }
+
+    .mod-token .right-box {
+        float: none;
+        width: auto
+    }
+
+    .mod-token .right-box ul {
+        height: auto
+    }
+
+    .mod-token .right-box li {
+        width: 50%
+    }
+
+    .mod-token .icon {
+        width: 40px
+    }
+
+    .mod-token .info {
+        height: 40px;
+        margin-left: 64px;
+        line-height: 20px
+    }
+
+    .mod-token .info img {
+        width: 12px;
+        height: 12px
+    }
+
+    .mod-trade .hd {
+        height: 40px;
+        line-height: 40px;
+        padding: 0 12px
+    }
+
+    .mod-trade .hd h3 {
+        font-size: 16px
+    }
+
+    .mod-trade .bd {
+        padding: 0 2px
+    }
+
+    .mod-trade .bd::-webkit-scrollbar {
+        width: 5px;
+        background-color: transparent
+    }
+
+    .mod-trade .bd::-webkit-scrollbar-thumb {
+        width: 5px;
+        -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.07);
+        background-color: #999
+    }
+
+    .mod-trade .bd::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.15);
+        background-color: #fff
+    }
+
+    .mod-trade table {
+        table-layout: auto;
+        margin-top: 0
+    }
+
+    .mod-trade table th, .mod-trade table td {
+        width: auto;
+        padding: 12px 5px
+    }
+
+    .mod-trade table th:nth-child(2), .mod-trade table td:nth-child(2) {
+        min-width: 80px
+    }
+
+    .mod-trade table th:nth-child(3), .mod-trade table td:nth-child(3) {
+        display: none
+    }
+
+    .mod-trade table th:nth-child(4), .mod-trade table td:nth-child(4) {
+        display: none
+    }
+
+    .mod-trade table td {
+        font-size: 12px
+    }
+
+    .mod-trade .star {
+        display: none
+    }
+
+    .mod-list .hd {
+        height: 40px;
+        line-height: 40px;
+        padding: 0 12px
+    }
+
+    .mod-list .hd h3 {
+        font-size: 16px
+    }
+
+    .mod-list .bd {
+        padding-left: 10px
+    }
+
+    .mod-list .bd li {
+        height: auto;
+        padding: 15px 10px 15px 0
+    }
+
+    .mod-list table {
+        table-layout: fixed
+    }
+
+    .mod-list table caption {
+        font-size: 14px
+    }
+
+    .mod-list table thead a {
+        max-width: 150px
+    }
+
+    .mod-list table tbody a {
+        max-width: 125px
+    }
+
+    .mod-list table td:nth-child(1) {
+        width: 72%
+    }
+
+    .mod-list table td:nth-child(2) {
+        width: 28%
+    }
+
+    .mod-list table span.fee {
+        font-size: 12px
+    }
+
+    .mod-link .bd {
+        margin: 0 12px
+    }
+}
+
+.media-small .mod-detail {
+    padding: 10px 0
+}
+
+.media-small .mod-detail .info {
+    margin-bottom: 10px
+}
+
+.media-small .mod-detail .info .price {
+    font-size: 20px
+}
+
+.media-small .mod-detail .info .warning {
+    display: none
+}
+
+.media-small .mod-detail .left {
+    float: none;
+    width: auto;
+    padding: 0 10px 20px
+}
+
+.media-small .mod-detail .right {
+    margin-left: 0
+}
+
+.media-small .mod-detail table td {
+    width: auto
+}
+
+.media-small .mod-detail table td.th {
+    padding-top: 5px
+}
+
+.media-small .mod-token {
+    margin: 0 !important;
+    background: none !important;
+    border: none !important
+}
+
+.media-small .mod-token .ft {
+    height: 40px;
+    line-height: 40px
+}
+
+.media-small .mod-token a {
+    font-size: 14px
+}
+
+.media-small .mod-token .left-box, .media-small .mod-token .right-box {
+    background: #fff;
+    margin: 0 8px 15px;
+    border: 1px solid #d2d7e1
+}
+
+.media-small .mod-token .left-box .item, .media-small .mod-token .right-box .item {
+    position: relative;
+    right: -1px
+}
+
+.media-small .mod-token .left-box {
+    float: none;
+    width: auto
+}
+
+.media-small .mod-token .left-box ul {
+    height: 355px
+}
+
+.media-small .mod-token .left-box li {
+    width: 50%
+}
+
+.media-small .mod-token .right-box {
+    float: none;
+    width: auto
+}
+
+.media-small .mod-token .right-box ul {
+    height: auto
+}
+
+.media-small .mod-token .right-box li {
+    width: 50%
+}
+
+.media-small .mod-token .icon {
+    width: 40px
+}
+
+.media-small .mod-token .info {
+    height: 40px;
+    margin-left: 64px;
+    line-height: 20px
+}
+
+.media-small .mod-token .info img {
+    width: 12px;
+    height: 12px
+}
+
+.media-small .mod-trade .hd {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 12px
+}
+
+.media-small .mod-trade .hd h3 {
+    font-size: 16px
+}
+
+.media-small .mod-trade .bd {
+    padding: 0 2px
+}
+
+.media-small .mod-trade .bd::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent
+}
+
+.media-small .mod-trade .bd::-webkit-scrollbar-thumb {
+    width: 5px;
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.07);
+    background-color: #999
+}
+
+.media-small .mod-trade .bd::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.15);
+    background-color: #fff
+}
+
+.media-small .mod-trade table {
+    table-layout: auto;
+    margin-top: 0
+}
+
+.media-small .mod-trade table th, .media-small .mod-trade table td {
+    width: auto;
+    padding: 12px 5px
+}
+
+.media-small .mod-trade table th:nth-child(2), .media-small .mod-trade table td:nth-child(2) {
+    min-width: 80px
+}
+
+.media-small .mod-trade table th:nth-child(3), .media-small .mod-trade table td:nth-child(3) {
+    display: none
+}
+
+.media-small .mod-trade table th:nth-child(4), .media-small .mod-trade table td:nth-child(4) {
+    display: none
+}
+
+.media-small .mod-trade table td {
+    font-size: 12px
+}
+
+.media-small .mod-trade .star {
+    display: none
+}
+
+.media-small .mod-list .hd {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 12px
+}
+
+.media-small .mod-list .hd h3 {
+    font-size: 16px
+}
+
+.media-small .mod-list .bd {
+    padding-left: 10px
+}
+
+.media-small .mod-list .bd li {
+    height: auto;
+    padding: 15px 10px 15px 0
+}
+
+.media-small .mod-list table {
+    table-layout: fixed
+}
+
+.media-small .mod-list table caption {
+    font-size: 14px
+}
+
+.media-small .mod-list table thead a {
+    max-width: 150px
+}
+
+.media-small .mod-list table tbody a {
+    max-width: 125px
+}
+
+.media-small .mod-list table td:nth-child(1) {
+    width: 72%
+}
+
+.media-small .mod-list table td:nth-child(2) {
+    width: 28%
+}
+
+.media-small .mod-list table span.fee {
+    font-size: 12px
+}
+
+.media-small .mod-link .bd {
+    margin: 0 12px
+}
