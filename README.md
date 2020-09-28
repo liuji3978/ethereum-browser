@@ -1,6 +1,6 @@
-# fdg-browser
+# browser
 
-> A Vue.js project
+基于以太坊的一套开源的浏览器，主要采用vue开发而成，相对于市面上绝大多数浏览器更加的易于上手。
 
 ## Build Setup
 
